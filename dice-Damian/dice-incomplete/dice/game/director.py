@@ -62,6 +62,7 @@ class Director:
             die.roll()
             self.score += die.points 
         self.total_score += self.score
+        self.score = 0
 
     def do_outputs(self):
         """Displays the dice and the score. Also asks the player if they want to roll again. 
